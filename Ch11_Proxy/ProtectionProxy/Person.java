@@ -1,0 +1,12 @@
+package Ch11_Proxy.ProtectionProxy;
+
+public interface Person {
+    String getName();
+    String getGender();
+    String getInterests();
+    int getGeekRating();
+    void setName(String name);
+    void setGender(String gender);
+    void setInterests(String interests);
+    void setGeekRating(int rating); 
+}
